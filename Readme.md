@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DashboardConfig.cs](./CS/MVCxDashboard_CustomFillService/App_Start/DashboardConfig.cs) (VB: [DashboardConfig.vb](./VB/MVCxDashboard_CustomFillService/App_Start/DashboardConfig.vb))
+* [FilterConfig.cs](./CS/MVCxDashboard_CustomFillService/App_Start/FilterConfig.cs) (VB: [FilterConfig.vb](./VB/MVCxDashboard_CustomFillService/App_Start/FilterConfig.vb))
+* [RouteConfig.cs](./CS/MVCxDashboard_CustomFillService/App_Start/RouteConfig.cs) (VB: [RouteConfig.vb](./VB/MVCxDashboard_CustomFillService/App_Start/RouteConfig.vb))
+* [HomeController.cs](./CS/MVCxDashboard_CustomFillService/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/MVCxDashboard_CustomFillService/Controllers/HomeController.vb))
+* [Global.asax.cs](./CS/MVCxDashboard_CustomFillService/Global.asax.cs) (VB: [Global.asax.vb](./VB/MVCxDashboard_CustomFillService/Global.asax.vb))
+<!-- default file list end -->
 # ASP.NET MVC Dashboard - How to provide data for ObjectDataSource using a fill service
 
 
