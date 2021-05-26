@@ -37,7 +37,7 @@ public class CustomObjectDataSourceCustomFillService : IObjectDataSourceCustomFi
 
         DataTable table = new DataTable();
         foreach(string field in fillParameters.DataFields) {
-            table.Columns.Add(field);
+            table.Columns.Add(field, typeof(SalesPersonData).GetProperty(field).PropertyType);
         }
         for (int i = 0; i < data.Count; i++) {
             object[] row = new object[fillParameters.DataFields.Length];
