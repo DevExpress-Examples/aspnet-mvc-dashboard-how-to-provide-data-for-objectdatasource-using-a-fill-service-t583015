@@ -37,7 +37,7 @@ Public Class CustomObjectDataSourceCustomFillService
 
         Dim table As New DataTable()
         For Each field As String In fillParameters.DataFields
-            table.Columns.Add(field)
+            table.Columns.Add(field, GetType(SalesPersonData).GetProperty(field).PropertyType)
         Next field
         For i As Integer = 0 To data.Count - 1
             Dim row(fillParameters.DataFields.Length - 1) As Object
