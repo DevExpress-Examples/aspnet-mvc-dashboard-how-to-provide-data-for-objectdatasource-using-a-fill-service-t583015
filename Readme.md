@@ -9,9 +9,12 @@
 <!-- default file list end -->
 # ASP.NET MVC Dashboard - How to provide data for ObjectDataSource using a fill service
 
+This example shows how to bind the [ASP.NET MVC Dashboard extension](https://docs.devexpress.com/Dashboard/16977/web-dashboard/aspnet-mvc-dashboard-extension) to the [Object Data Source](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardObjectDataSource) and supply it with data using a custom fill service by implementing an [IObjectDataSourceCustomFillService](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.IObjectDataSourceCustomFillService) interface. In this example, the [ObjectDataSourceFillParameters.DataFields](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ObjectDataSourceFillParameters.DataFields) parameter is used to load data only for required fields.
 
-This example shows how to bind the <a href="https://documentation.devexpress.com/#Dashboard/CustomDocument16977">ASP.NET MVC Dashboard extension</a> to the <a href="https://documentation.devexpress.com/#Dashboard/clsDevExpressDashboardCommonDashboardObjectDataSourcetopic">Object Data Source</a> and supply it with data using a custom fill service by implementing a <a href="https://documentation.devexpress.com/Dashboard/DevExpress.DashboardCommon.IObjectDataSourceCustomFillService.class">IObjectDataSourceCustomFillService</a> interface. In this example, the <a href="https://documentation.devexpress.com/Dashboard/DevExpress.DashboardCommon.ObjectDataSourceFillParameters.DataFields.property">ObjectDataSourceFillParameters.DataFields</a> parameter is used to load data only for required fields.
+## Documentation
 
-<br/>
+- [Object Data Source](https://docs.devexpress.com/Dashboard/401435/web-dashboard/dashboard-backend/register-default-data-sources-for-the-aspnet-mvc-framework/object-data-source)
 
+## More Examples
 
+- [ASP.NET MVC Dashboard - How to provide data to ObjectDataSource using DataLoading](https://github.com/DevExpress-Examples/aspnet-mvc-dashboard-how-to-provide-data-to-objectdatasource-using-dataloading-t529121)
