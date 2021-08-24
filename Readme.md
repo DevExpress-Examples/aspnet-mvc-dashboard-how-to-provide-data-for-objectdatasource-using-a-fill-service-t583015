@@ -17,4 +17,4 @@ This example shows how to bind the [ASP.NET MVC Dashboard extension](https://do
 
 ## More Examples
 
-- [ASP.NET MVC Dashboard - How to provide data to ObjectDataSource using DataLoading](https://github.com/DevExpress-Examples/aspnet-mvc-dashboard-how-to-provide-data-to-objectdatasource-using-dataloading-t529121)
+- [Dashboard for MVC - How to provide data to ObjectDataSource using DataLoading](https://github.com/DevExpress-Examples/aspnet-mvc-dashboard-how-to-provide-data-to-objectdatasource-using-dataloading-t529121)
