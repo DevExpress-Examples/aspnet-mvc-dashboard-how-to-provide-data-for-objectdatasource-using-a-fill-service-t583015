@@ -6,7 +6,7 @@ Imports DevExpress.DashboardWeb.Mvc
 
 Public Class DashboardConfig
     Public Shared Sub RegisterService(ByVal routes As RouteCollection)
-        routes.MapDashboardRoute()
+        routes.MapDashboardRoute("dashboardControl", "DefaultDashboard")
 
         DashboardConfigurator.Default.SetDashboardStorage(New DashboardFileStorage("~/App_Data/"))
         Dim dataSourceStorage = New DataSourceInMemoryStorage()

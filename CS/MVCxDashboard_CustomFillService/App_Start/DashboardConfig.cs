@@ -9,7 +9,7 @@ using System.Web.Routing;
 
 public class DashboardConfig {
     public static void RegisterService(RouteCollection routes) {
-        routes.MapDashboardRoute();
+        routes.MapDashboardRoute("dashboardControl", "DefaultDashboard");
 
         DashboardConfigurator.Default.SetDashboardStorage(new DashboardFileStorage(@"~/App_Data/"));
         var dataSourceStorage = new DataSourceInMemoryStorage();
