@@ -19,6 +19,7 @@ namespace MVCxDashboard_CustomFillService {
             ModelBinders.Binders.DefaultBinder = new DevExpress.Web.Mvc.DevExpressEditorsBinder();
 
             DevExpress.Web.ASPxWebControl.CallbackError += Application_Error;
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(SalesPersonData));
         }
 
         protected void Application_Error(object sender, EventArgs e) {
