@@ -11,7 +11,7 @@ This example shows how to bind the [ASP.NET MVC Dashboard extension](https://do
 In this example, the [ObjectDataSourceFillParameters.DataFields](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ObjectDataSourceFillParameters.DataFields) parameter is used to load data only for required fields.
 
 <!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [DashboardConfig.cs](./CS/MVCxDashboard_CustomFillService/App_Start/DashboardConfig.cs) (VB: [DashboardConfig.vb](./VB/MVCxDashboard_CustomFillService/App_Start/DashboardConfig.vb))
 * [FilterConfig.cs](./CS/MVCxDashboard_CustomFillService/App_Start/FilterConfig.cs) (VB: [FilterConfig.vb](./VB/MVCxDashboard_CustomFillService/App_Start/FilterConfig.vb))
