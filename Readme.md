@@ -2,6 +2,7 @@
 ![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128579154/21.2.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T583015)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 
 # Dashboard for MVC - How to provide data for ObjectDataSource using a fill service
@@ -27,3 +28,10 @@ In this example, the [ObjectDataSourceFillParameters.DataFields](https://docs.d
 ## More Examples
 
 - [Dashboard for MVC - How to provide data to ObjectDataSource using DataLoading](https://github.com/DevExpress-Examples/aspnet-mvc-dashboard-how-to-provide-data-to-objectdatasource-using-dataloading-t529121)
+<!-- feedback -->
+## Does this example address your development requirements/objectives?
+
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=aspnet-mvc-dashboard-how-to-provide-data-for-objectdatasource-using-a-fill-service-t583015&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=aspnet-mvc-dashboard-how-to-provide-data-for-objectdatasource-using-a-fill-service-t583015&~~~was_helpful=no)
+
+(you will be redirected to DevExpress.com to submit your response)
+<!-- feedback end -->
